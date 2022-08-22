@@ -320,4 +320,10 @@ footer{
 		width: 95%;
 		margin: 0 auto;
 	}
+	aside>div+div{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
 }
