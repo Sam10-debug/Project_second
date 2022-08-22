@@ -68,6 +68,9 @@ aside>div{
 aside p{
 	margin-left: 5px;
 }
+aside img{
+	width: 20px;
+}
 .back-logo{
 	width: 10px;
 }
