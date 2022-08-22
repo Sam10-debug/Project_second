@@ -52,6 +52,7 @@ aside{
 	/* i set the color as blue instead of black so the images could show.. i could not get a white vector image */
 	color: #ffffff;
 	padding: 1rem 5px;
+	line-height: 2;
 }
 .hero-section{
 	flex: 5;
@@ -238,7 +239,7 @@ footer{
 		left: -100%;
 		/* transform: translateX(-50%); */
 		transition: all 1000ms ease-in-out;
-		height: fit-content;
+		height: 500px;
 	}
 	aside.active{
 		/* transform: translateX(100%); */
