@@ -325,5 +325,8 @@ footer{
 		width: 95%;
 		margin: 0 auto;
 	}
+	#second,#third,#fourth>div{
+		width: 100%;
+	}
 	
 }
