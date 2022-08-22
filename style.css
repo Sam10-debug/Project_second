@@ -12,6 +12,7 @@ img{
 body{
 	min-height: 100vh;
 	background-color: whitesmoke;
+	font-family: 'Roboto', sans-serif;
 }
 header nav{
 	display: flex;
@@ -232,7 +233,7 @@ footer{
 		height: 100vh;
 	}
 	aside{
-		flex: 0;
+		
 		margin-bottom: 10px;
 		position: absolute;
 		top: 13%;
