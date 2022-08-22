@@ -69,11 +69,16 @@ aside>div:first-of-type{
 aside span{
 	margin-left: 5px;
 }
-aside>div+div{
+#second,#third,#fourth{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
+/* aside>div+div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+} */
 aside>div+div>svg{
 	width: 10px;
 }
@@ -320,10 +325,5 @@ footer{
 		width: 95%;
 		margin: 0 auto;
 	}
-	aside>div+div{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-	}
+	
 }
