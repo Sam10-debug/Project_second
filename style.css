@@ -48,7 +48,8 @@ main>section{
 }
 aside{
 	flex: 1;
-	background-color: #000000;
+	background-color: blue; 
+	/* i set the color as blue instead of black so the images could show.. i could not get a white vector image */
 	color: #ffffff;
 	padding: 1rem 5px;
 }
@@ -61,6 +62,21 @@ svg{
 }
 aside>div{
 	padding-block: 8px;
+	display: flex;
+	align-items: center;
+}
+aside p{
+	margin-left: 5px;
+}
+.back-logo{
+	width: 10px;
+}
+aside>div>div{
+	display: flex;
+	align-items: center;
+}
+aside>div:not(:first-of-type) {
+	justify-content: space-between;
 }
 aside>div:first-of-type{
 	display: flex;
@@ -330,9 +346,6 @@ footer{
 	#second,#third,#fourth>div{
 		width: 100%;
 	}
-	#second,#third,#fourth span{
-		margin-top: 70px;
-		color: red;
-	}
+	
 	
 }
