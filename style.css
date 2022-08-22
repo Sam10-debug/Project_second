@@ -242,7 +242,7 @@ footer{
 		z-index: 1;
 		/* transform: translateX(-50%); */
 		transition: all 1000ms ease-in-out;
-		height: fit-content;
+		height: 500px;
 	}
 	aside.active{
 		transform: translateX(-100%);
