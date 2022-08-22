@@ -330,8 +330,8 @@ footer{
 	#second,#third,#fourth>div{
 		width: 100%;
 	}
-	#second,#third,#fourth>span{
-		margin-top: 10px;
+	#second,#third,#fourth span{
+		margin-top: 30px;
 	}
 	
 }
